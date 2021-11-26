@@ -1,5 +1,10 @@
 {
+  "scripts": {
+    "test": "jest --watchAll  --verbose",
+    "test:cov": "jest --coverage"
+  },
   "devDependencies": {
+    "@types/jest": "^27.0.2",
     "jest": "^27.3.1"
   }
 }
